@@ -18,6 +18,11 @@ namespace examenMsmRecuperacionC_.servicios
         /// <param name="texto">el texto que va a escribir en el log</param>
         public void escribirLog(string texto);
 
+        /// <summary>
+        /// Carga los datos de vehiculos del fichero
+        /// msm - 140624
+        /// </summary>
         public void cargaInical();
+        
     }
 }

@@ -10,7 +10,8 @@ namespace examenMsmRecuperacionC_
     class Program
     {
         public static string texto;
-        public static string nombreLog = utilidades.Utilidades.nombreLog();
+        public static string rutaFichero = "C:\\Users\\csi23-mserina\\source\\repos\\examenMsmRecuperacionC#\\datosIniciales.txt";
+        public static string rutaFicheroLog = utilidades.Utilidades.nombreLog();
         public static List<VehiculosDto> listaVehiculos = new List<VehiculosDto>();
         public static List<PropietariosDto> listaPropietarios = new List<PropietariosDto>();
         /// <summary>
@@ -20,6 +21,7 @@ namespace examenMsmRecuperacionC_
         /// <param name="args"></param>
         public static void Main(string[] args)
         {
+            /*
             VehiculosDto veh = new VehiculosDto();
             long id = utilidades.Utilidades.idGenearatorV();
             veh.Matricula = "123";
@@ -31,11 +33,16 @@ namespace examenMsmRecuperacionC_
             {
                 Console.WriteLine(vehi.Matricula);
             }
+            */
 
             MenuInterfaz mi = new MenuImplementacion();
             OperacionFicheroInterfaz of = new OperacionFicheroImplementacion();
             OperacionInterfaz op = new OperacionImplementacion();
 
+            if (File.Exists(rutaFichero))
+            {
+                of.cargaInical();
+            }
             int opcionSeleccionada;
             bool cerrarMenu = false;
 

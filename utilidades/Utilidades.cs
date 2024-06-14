@@ -21,6 +21,8 @@ namespace examenMsmRecuperacionC_.utilidades
             return nombreLog;
         }
 
+        
+
         public static long idGenearatorV()
         {
             int numeroLista = Program.listaVehiculos.Count -1;
