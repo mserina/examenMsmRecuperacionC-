@@ -12,3 +12,19 @@ ERROR[]: Input string was not in a correct format.
 
 Se ha seleccionado alta nuevo propietario
 
+Se ha seleccionado alta nuevo propietario
+
+Se ha seleccionado alta nuevo propietario
+
+Se ha seleccionado numero de historicos
+
+Se ha seleccionado numero de historicos
+
+Se ha cerrado aplicacion
+
+Se ha seleccionado alta nuevo propietario
+
+Se ha seleccionado numero de historicos
+
+Se ha cerrado aplicacion
+

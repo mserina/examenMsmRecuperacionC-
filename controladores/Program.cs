@@ -21,19 +21,7 @@ namespace examenMsmRecuperacionC_
         /// <param name="args"></param>
         public static void Main(string[] args)
         {
-            /*
-            VehiculosDto veh = new VehiculosDto();
-            long id = utilidades.Utilidades.idGenearatorV();
-            veh.Matricula = "123";
-            veh.FchMatriculacion = Convert.ToDateTime("12-02-1980");
-
-            listaVehiculos.Add(veh);
-
-            foreach (VehiculosDto vehi in Program.listaVehiculos)
-            {
-                Console.WriteLine(vehi.Matricula);
-            }
-            */
+           
 
             MenuInterfaz mi = new MenuImplementacion();
             OperacionFicheroInterfaz of = new OperacionFicheroImplementacion();
